@@ -1,0 +1,40 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Data Source=altium-library
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote="
+RightQuote="
+QuoteTableNames=1
+UseTableSchemaName=1
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=
+LibraryDatabasePath=
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LastFocusedTable=public.JlcPcb Link
+[Table1]
+SchemaName=public
+TableName=JlcPcb Link
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=100|Jlcpcb Basic Part0=100|Jlcpcb Preferred Part0=100|LCSC Part#0=100|Supplier 10=100|Supplier Part Number 10=100
+[Table2]
+SchemaName=public
+TableName=jlcpcb_link
+Enabled=False
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=100|Jlcpcb Basic Part0=100|Jlcpcb Preferred Part0=100|LCSC Part#0=100
+[FieldMap1]
+Options=FieldName=public.JlcPcb Link.Part Number|TableNameOnly=public.JlcPcb Link|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=public.jlcpcb_link.Part Number|TableNameOnly=public.jlcpcb_link|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
