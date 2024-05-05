@@ -28,7 +28,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=100|Footprint Ref0=100|Footprint Path0=100|Footprint Ref 20=100|Footprint Path 20=100|Footprint Ref 30=100|Footprint Path 30=100|Library Ref0=100|Library Path0=100|Comment0=100|Joints0=100|Size Inch0=100|Temperature Characteristics (EIA)0=100|Size Metric0=100|Capacitance0=100|Rated DC voltage0=100|Capacitance Tolerance0=100|Operating Temperature Range0=100|ComponentLink1Description0=100|ComponentLink1Url0=100|ComponentLink2Description0=100|ComponentLink2Url0=100|Manufacturer0=100|LCSC Part #0=100|JlcPcb Stock0=100|ComponentLink3Description0=100|ComponentLink3Url0=100|Supplier 10=100|Supplier Part Number 10=100|Value0=100|Relative Tolerance0=100|ComponentLink4Description0=100|ComponentLink4Url0=100|Supplier 20=100|Supplier Part Number 20=100|Temperature Characteristics (JIS)0=100|Temperature Characteristics (Custom)0=100|Supplier 30=100|Supplier Part Number 30=100|Rated AC voltage0=100
+BrowserOrder_Visible=Part Number0=100|Footprint Ref0=100|Footprint Path0=100|Footprint Ref 20=100|Footprint Path 20=100|Footprint Ref 30=100|Footprint Path 30=100|Library Ref0=100|Library Path0=100|Comment0=100|Lifecycle Status0=100|Joints0=100|Size Inch0=100|Size Metric0=100|Temperature Characteristics (EIA)0=100|Capacitance0=100|Rated DC voltage0=100|Capacitance Tolerance0=100|Operating Temperature Range0=100|ComponentLink1Description0=100|ComponentLink1Url0=100|ComponentLink2Description0=100|ComponentLink2Url0=100|JlcPcb Type0=100|JlcPcb Stock0=100|LCSC Part #0=100|Manufacturer0=100|ComponentLink3Description0=100|ComponentLink3Url0=100|Supplier 10=100|Supplier Part Number 10=100|Value0=100|ComponentLink4Description0=100|ComponentLink4Url0=100|Supplier 20=100|Supplier Part Number 20=100|Relative Tolerance0=100|Supplier 30=100|Supplier Part Number 30=100|Temperature Characteristics (JIS)0=100|Temperature Characteristics (Custom)0=100|Rated AC voltage0=100
 [Table2]
 SchemaName=
 TableName=JlcPcb Link
@@ -43,7 +43,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=100|Footprint Ref0=100|Footprint Path0=100|Footprint Ref 20=100|Footprint Path 20=100|Footprint Ref 30=100|Footprint Path 30=100|Library Ref0=100|Library Path0=100|Comment0=100|Rated Power0=100|Resistance0=100|Maximum Overload Voltage0=100|Relative Tolerance0=100|Operating Temperature Range0=100|Temperature Coefficient0=100|ComponentLink1Description0=100|ComponentLink1Url0=100|ComponentLink2Description0=100|ComponentLink2Url0=100|Manufacturer0=100|LCSC Part #0=100|JlcPcb Stock0=100|ComponentLink3Description0=100|ComponentLink3Url0=100|Supplier 10=100|Supplier Part Number 10=100|Comment0=100|Value0=100|Size Inch0=100|Maximum Working Voltage0=100|Size Metric0=100|Resistance Tolerance0=100
+BrowserOrder_Visible=Part Number0=100|Footprint Ref0=100|Footprint Path0=100|Footprint Ref 20=100|Footprint Path 20=100|Footprint Ref 30=100|Footprint Path 30=100|Library Ref0=100|Library Path0=100|Comment0=100|Rated Power0=100|Resistance0=100|Relative Tolerance0=100|Operating Temperature Range0=100|Temperature Coefficient0=100|ComponentLink1Description0=100|ComponentLink1Url0=100|ComponentLink2Description0=100|ComponentLink2Url0=100|Size Metric0=100|Size Inch0=100|JlcPcb Type0=100|JlcPcb Stock0=100|LCSC Part #0=100|Manufacturer0=100|ComponentLink3Description0=100|ComponentLink3Url0=100|Supplier 10=100|Supplier Part Number 10=100|Value0=100|Resistance Tolerance0=100
 [Table4]
 SchemaName=
 TableName=jlcpcb_link
