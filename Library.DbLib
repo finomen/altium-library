@@ -21,31 +21,34 @@ SearchSubDirectories=0
 SchemaName=public
 LastFocusedTable=Resistors - Surface Mount
 [Table1]
-SchemaName=
+SchemaName=public
 TableName=Capacitors - MLCC - Surface Mount
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=100|Footprint Ref0=100|Footprint Path0=100|Footprint Ref 20=100|Footprint Path 20=100|Footprint Ref 30=100|Footprint Path 30=100|Library Ref0=100|Library Path0=100|Comment0=100|Lifecycle Status0=100|Joints0=100|Size Inch0=100|Size Metric0=100|Temperature Characteristics (EIA)0=100|Capacitance0=100|Rated DC voltage0=100|Capacitance Tolerance0=100|Operating Temperature Range0=100|ComponentLink1Description0=100|ComponentLink1Url0=100|ComponentLink2Description0=100|ComponentLink2Url0=100|JlcPcb Type0=100|JlcPcb Stock0=100|LCSC Part #0=100|Manufacturer0=100|ComponentLink3Description0=100|ComponentLink3Url0=100|Supplier 10=100|Supplier Part Number 10=100|Value0=100|ComponentLink4Description0=100|ComponentLink4Url0=100|Supplier 20=100|Supplier Part Number 20=100|Relative Tolerance0=100|Supplier 30=100|Supplier Part Number 30=100|Temperature Characteristics (JIS)0=100|Temperature Characteristics (Custom)0=100|Rated AC voltage0=100
 [Table2]
-SchemaName=
+SchemaName=public
+TableName=Connectors - Wire To Board
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table3]
+SchemaName=public
 TableName=JlcPcb Link
 Enabled=False
 UserWhere=0
 UserWhereText=
-[Table3]
-SchemaName=
+[Table4]
+SchemaName=public
 TableName=Resistors - Surface Mount
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=100|Footprint Ref0=100|Footprint Path0=100|Footprint Ref 20=100|Footprint Path 20=100|Footprint Ref 30=100|Footprint Path 30=100|Library Ref0=100|Library Path0=100|Comment0=100|Rated Power0=100|Resistance0=100|Relative Tolerance0=100|Operating Temperature Range0=100|Temperature Coefficient0=100|ComponentLink1Description0=100|ComponentLink1Url0=100|ComponentLink2Description0=100|ComponentLink2Url0=100|Size Metric0=100|Size Inch0=100|JlcPcb Type0=100|JlcPcb Stock0=100|LCSC Part #0=100|Manufacturer0=100|ComponentLink3Description0=100|ComponentLink3Url0=100|Supplier 10=100|Supplier Part Number 10=100|Value0=100|Resistance Tolerance0=100
-[Table4]
-SchemaName=
+BrowserOrder_Visible=Part Number0=100|Footprint Ref0=100|Footprint Path0=100|Footprint Ref 20=100|Footprint Path 20=100|Footprint Ref 30=100|Footprint Path 30=100|Library Ref0=100|Library Path0=100|Rated Power0=100|Resistance0=100|Relative Tolerance0=100|Operating Temperature Range0=100|Temperature Coefficient0=100|ComponentLink1Description0=100|ComponentLink1Url0=100|ComponentLink2Description0=100|ComponentLink2Url0=100|Size Metric0=100|Size Inch0=100|JlcPcb Type0=100|JlcPcb Stock0=100|LCSC Part #0=100|Manufacturer0=100|ComponentLink3Description0=100|ComponentLink3Url0=100|Supplier 10=100|Supplier Part Number 10=100|Comment0=100|Value0=100|Resistance Tolerance0=100
+[Table5]
+SchemaName=public
 TableName=jlcpcb_link
 Enabled=False
 UserWhere=0
@@ -71,22 +74,38 @@ Options=FieldName=Capacitors - MLCC - Surface Mount.Library Path|TableNameOnly=C
 [FieldMap10]
 Options=FieldName=Capacitors - MLCC - Surface Mount.Comment|TableNameOnly=Capacitors - MLCC - Surface Mount|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap11]
-Options=FieldName=Resistors - Surface Mount.Part Number|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connectors - Wire To Board.Part Number|TableNameOnly=Connectors - Wire To Board|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap12]
-Options=FieldName=Resistors - Surface Mount.Footprint Ref|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connectors - Wire To Board.Footprint Ref|TableNameOnly=Connectors - Wire To Board|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap13]
-Options=FieldName=Resistors - Surface Mount.Footprint Path|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connectors - Wire To Board.Footprint Path|TableNameOnly=Connectors - Wire To Board|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap14]
-Options=FieldName=Resistors - Surface Mount.Footprint Ref 2|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connectors - Wire To Board.Footprint Ref 2|TableNameOnly=Connectors - Wire To Board|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap15]
-Options=FieldName=Resistors - Surface Mount.Footprint Path 2|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connectors - Wire To Board.Footprint Path 2|TableNameOnly=Connectors - Wire To Board|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
-Options=FieldName=Resistors - Surface Mount.Footprint Ref 3|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connectors - Wire To Board.Footprint Ref 3|TableNameOnly=Connectors - Wire To Board|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap17]
-Options=FieldName=Resistors - Surface Mount.Footprint Path 3|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connectors - Wire To Board.Footprint Path 3|TableNameOnly=Connectors - Wire To Board|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap18]
-Options=FieldName=Resistors - Surface Mount.Library Ref|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connectors - Wire To Board.Library Ref|TableNameOnly=Connectors - Wire To Board|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap19]
-Options=FieldName=Resistors - Surface Mount.Library Path|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Connectors - Wire To Board.Library Path|TableNameOnly=Connectors - Wire To Board|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap20]
-Options=FieldName=Resistors - Surface Mount.Comment|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Comment|FieldType=1|ParameterName=Comment|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistors - Surface Mount.Part Number|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=Resistors - Surface Mount.Footprint Ref|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=Resistors - Surface Mount.Footprint Path|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=Resistors - Surface Mount.Footprint Ref 2|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=Resistors - Surface Mount.Footprint Path 2|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=Resistors - Surface Mount.Footprint Ref 3|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=Resistors - Surface Mount.Footprint Path 3|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=Resistors - Surface Mount.Library Ref|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap28]
+Options=FieldName=Resistors - Surface Mount.Library Path|TableNameOnly=Resistors - Surface Mount|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
